@@ -15,6 +15,12 @@ app.use(cors({
 const authRouter = require("./routes/auth.routes")
 const interviewRouter = require("./routes/interview.routes")
 
+app.get("/", (req, res) => {
+    res.json({
+        success: true,
+        message: "PrepAI Backend is running successfully 🚀"
+    });
+});
 
 /* using all the routes here */
 app.use("/api/auth", authRouter)
