@@ -15,7 +15,6 @@
   "type": "commonjs",
   "dependencies": {
     "@google/genai": "^2.15.0",
-    "@sparticuz/chromium": "^149.0.0",
     "axios": "^1.19.0",
     "bcryptjs": "^3.0.3",
     "cookie-parser": "^1.4.7",
@@ -27,7 +26,7 @@
     "mongoose": "^9.9.0",
     "multer": "^2.2.0",
     "pdf-parse": "^2.4.5",
-    "puppeteer-core": "^25.5.0",
+    "puppeteer": "^25.10.0",
     "zod": "^4.4.3",
     "zod-to-json-schema": "^3.25.2"
   }
